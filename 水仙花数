@@ -1,0 +1,14 @@
+Void main()
+{
+Int data[10],I,max,min;
+For (i=0;i<10;i++)
+    Scanf(“%d”,&data[i]);
+Max=data[0];
+Min=data[0];
+For (i=1;i<10;i++)
+{
+    If data[i]>max  max=data[i];
+If data[i]<min  min=data[i];
+}
+    Printf(“max=%d,min=%d”,max,min);
+}
